@@ -36,3 +36,5 @@
 
 /// Exercise 1: Hello World
 pub mod hello_world;
+/// Exercise 2: Leap Year
+pub mod leap;
