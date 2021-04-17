@@ -33,3 +33,6 @@
     unused_import_braces,
     unused_qualifications
 )]
+
+/// Exercise 1: Hello World
+pub mod hello_world;
