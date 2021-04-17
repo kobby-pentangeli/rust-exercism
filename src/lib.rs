@@ -38,3 +38,5 @@
 pub mod hello_world;
 /// Exercise 2: Leap Year
 pub mod leap;
+/// Exercise 3: Rain Drops
+pub mod raindrops;
