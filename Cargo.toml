@@ -1,0 +1,9 @@
+[package]
+name = "rust-exercism"
+version = "0.1.0"
+description = "My solutions to the exercises in the Rust track of Exercism"
+authors = ["Kobby Pentangeli <kobbypentangeli@gmail.com>"]
+license = "MIT"
+edition = "2018"
+
+[dependencies]
