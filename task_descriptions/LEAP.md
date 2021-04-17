@@ -13,23 +13,6 @@ on every year that is evenly divisible by 4
 For example, 1997 is not a leap year, but 1996 is.  1900 is not a leap
 year, but 2000 is.
 
-## Notes
-
-Though our exercise adopts some very simple rules, there is more to
-learn!
-
-For a delightful, four minute explanation of the whole leap year
-phenomenon, go watch [this youtube video][video].
-
-[video]: http://www.youtube.com/watch?v=xX96xng7sAE
-
-You may use the [`arithmetic remainder` operator](https://doc.rust-lang.org/book/appendix-02-operators.html) to test for divisibility.
-
-## Rust Installation
-
-Refer to the [exercism help page][help-page] for Rust installation and learning
-resources.
-
 ## Writing the Code
 
 Execute the tests with:
@@ -62,14 +45,7 @@ If the specific test is ignored use:
 cargo test some_test -- --ignored
 ```
 
-To learn more about Rust tests refer to the [online test documentation][rust-tests]
-
-Make sure to read the [Modules][modules] chapter if you
-haven't already, it will help you with organizing your files.
-
 ## Further improvements
-
-After you have solved the exercise, please consider using the additional utilities, described in the [installation guide](https://exercism.io/tracks/rust/installation), to further refine your final solution.
 
 To format your solution, inside the solution directory use
 
@@ -82,26 +58,3 @@ To see, if your solution contains some common ineffective use cases, inside the 
 ```bash
 cargo clippy --all-targets
 ```
-
-## Submitting the solution
-
-Generally you should submit all files in which you implemented your solution (`src/lib.rs` in most cases). If you are using any external crates, please consider submitting the `Cargo.toml` file. This will make the review process faster and clearer.
-
-## Feedback, Issues, Pull Requests
-
-The [exercism/rust](https://github.com/exercism/rust) repository on GitHub is the home for all of the Rust exercises. If you have feedback about an exercise, or want to help implement new exercises, head over there and create an issue. Members of the rust track team are happy to help!
-
-If you want to know more about Exercism, take a look at the [contribution guide](https://github.com/exercism/docs/blob/main/contributing-to-language-tracks/README.md).
-
-[help-page]: https://exercism.io/tracks/rust/learning
-[modules]: https://doc.rust-lang.org/book/ch07-02-defining-modules-to-control-scope-and-privacy.html
-[cargo]: https://doc.rust-lang.org/book/ch14-00-more-about-cargo.html
-[rust-tests]: https://doc.rust-lang.org/book/ch11-02-running-tests.html
-
-## Source
-
-JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://www.javaranch.com/leap.jsp)
-
-## Submitting Incomplete Solutions
-
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
